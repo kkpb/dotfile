@@ -1,6 +1,10 @@
 name: hoge
 
 on:
+  push:
+    branches:
+      - master
+      - hoge
   pull_request:
     branches:
       - master
