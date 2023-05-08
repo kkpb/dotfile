@@ -1,3 +1,4 @@
+hoge
 export PATH=/usr/local/bin:/usr/local/cuda/bin:/opt/local/bin:/opt/local/sbin:/Applications/Vagrant/bin:/usr/texbin:$PATH
 export CUDA_PATH=/usr/local/cuda/include
 export CUDA_DIR=/usr/local/cuda

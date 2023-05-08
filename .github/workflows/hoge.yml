@@ -1,0 +1,14 @@
+name: hoge
+
+on:
+  pull_request:
+    branches:
+      - master
+      - hoge
+
+jobs:
+  hoge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hoge
+        run: git log
